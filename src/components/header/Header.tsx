@@ -20,7 +20,6 @@ const Banner = styled.div`
 const NavText = styled.p`
     
     margin: auto; /* Important */
-    font-family: 'Ubuntu Mono', monospace;
     padding-right: 30px;
 `;
 
@@ -30,11 +29,11 @@ const Header = () => {
         <StyledHeader>
 
             <Banner>
-                <NavText>{Constants.ABOUT}</NavText>
-                <NavText>{Constants.WORK}</NavText>
-                <NavText>{Constants.PROJECTS}</NavText>
-                <NavText>{Constants.CONTACT}</NavText>
-                <NavText>{Constants.TERMINAL}</NavText>
+                <NavText>{ Constants.ABOUT }</NavText>
+                <NavText>{ Constants.WORK }</NavText>
+                <NavText>{ Constants.PROJECTS }</NavText>
+                <NavText>{ Constants.CONTACT }</NavText>
+                <NavText>{ Constants.TERMINAL }</NavText>
             </Banner>
 
         </StyledHeader>
