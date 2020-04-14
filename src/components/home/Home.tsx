@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import * as Constants from '../../Constants';
+import WelcomeMessage from './WelcomeMessage';
 
 const Container = styled.div`
 
@@ -13,7 +14,11 @@ const Home = () => {
 
     return (
 
-        <Container> </Container>
+        <Container> 
+
+            <WelcomeMessage message={ Constants.INTRO } />
+
+        </Container>
     );
 }
 
