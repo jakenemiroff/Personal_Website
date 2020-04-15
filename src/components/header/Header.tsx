@@ -20,6 +20,7 @@ const NavText = styled.p`
     
     margin: auto; /* Important */
     padding-right: 30px;
+    font-size: 18px;
     color: ${Constants.TEAL}
 `;
 
