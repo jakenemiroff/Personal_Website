@@ -1,9 +1,18 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components';
+import * as Constants from '../../Constants';
+
+const TextContainer= styled.div`
+
+    padding-top: 20px;
+`;
 
 const StyledText = styled.h3`
     
-    padding-top: 20px;
+    color: ${Constants.ORANGE};
+    line-height: 2;
+    font-size: 32px;
+    margin: 0;
 `;
 
 interface MessageProps {
@@ -37,7 +46,7 @@ const WelcomeMessage = ({ message }: MessageProps) => {
     })
 
         return (
-            <div>
+            <TextContainer>
                 {text.split("\n").map((line, key) => {
                 return <>
                     <div key={ key }>
@@ -47,7 +56,7 @@ const WelcomeMessage = ({ message }: MessageProps) => {
                     </div>
                 </>
                 })}
-            </div>
+            </TextContainer>
         );
 }
   
