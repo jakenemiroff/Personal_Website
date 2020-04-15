@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const StyledText = styled.h3`
     
-    line-height: 1.6;
+    padding-top: 20px;
 `;
 
 interface MessageProps {
@@ -13,7 +13,7 @@ interface MessageProps {
 const WelcomeMessage = ({ message }: MessageProps) => {
     
     const [text, setText] = useState('')
-    const [speed, setSpeed] = useState(150)
+    const [speed, setSpeed] = useState(50)
 
     const fullText: string = message
   
@@ -21,7 +21,7 @@ const WelcomeMessage = ({ message }: MessageProps) => {
         
         setText(fullText.substring(0, text.length + 1))
   
-        setSpeed(150)
+        setSpeed(50)
   
         if (text === fullText) {
             setTimeout(500)

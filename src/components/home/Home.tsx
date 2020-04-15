@@ -5,9 +5,10 @@ import WelcomeMessage from './WelcomeMessage';
 
 const Container = styled.div`
 
-    margin: 75px;
-    border: solid 1px white;
+    margin: 75px 0;
     height: 400px;
+    background-color: ${Constants.LIGHT_BLUE};
+    text-align: center;
 `;
 
 const Home = () => {
