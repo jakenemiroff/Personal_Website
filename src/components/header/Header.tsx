@@ -6,8 +6,7 @@ const StyledHeader = styled.div`
 
     height: 100px;
     width: inherit;
-    border: solid 1px black;
-    background-color: cornflowerblue;
+    background-color: ${Constants.LIGHT_BLUE}
 `;
 
 const Banner = styled.div`
@@ -21,6 +20,7 @@ const NavText = styled.p`
     
     margin: auto; /* Important */
     padding-right: 30px;
+    color: ${Constants.TEAL}
 `;
 
 const Header = () => {
