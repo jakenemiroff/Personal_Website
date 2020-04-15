@@ -1,43 +1,61 @@
 import React from 'react';
 import styled from 'styled-components';
 import * as Constants from '../../Constants';
+import Image from './Jake_Nemiroff.jpg';
 
-const StyledHeader = styled.div`
-
-    height: 100px;
-    width: inherit;
-    border: solid 1px black;
+const Container = styled.div`
+    height: 400px;
+    background-color: ${Constants.DARK_BLUE};
 `;
 
-const Banner = styled.div`
-    
-    display: flex; 
-    height: inherit;
-    float: right;
+const Title = styled.h3`
+
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: ${Constants.ORANGE};
+    margin: 0;
 `;
 
-const NavText = styled.p`
-    
-    margin: auto; /* Important */
-    font-family: 'Ubuntu Mono', monospace;
-    padding-right: 30px;
+const BodyContainer = styled.div`
+
+    display: flex;
 `;
 
-const Header = () => {
+const Text = styled.p`
+
+    padding: 0 50px;
+    width: 50%;
+    line-height: 2;
+    font-size: 18px;
+    color: ${Constants.ORANGE};
+`;
+
+const StyledImage = styled.img`
+
+    height: 300px;
+    width: 300px;
+`;
+
+const About = () => {
 
     return (
-        <StyledHeader>
 
-            <Banner>
-                <NavText>{Constants.ABOUT}</NavText>
-                <NavText>{Constants.WORK}</NavText>
-                <NavText>{Constants.PROJECTS}</NavText>
-                <NavText>{Constants.CONTACT}</NavText>
-                <NavText>{Constants.TERMINAL}</NavText>
-            </Banner>
+        <Container>
+            
+            <Title>{ Constants.ABOUT_ME }</Title>
+            
+            <BodyContainer>
 
-        </StyledHeader>
+                <Text>{ Constants.ABOUT_CONTENT }</Text>
+                <StyledImage src={ Image } />
+
+            </BodyContainer>
+
+        </Container>
     );
 }
 
-export default Header;
+export default About;
