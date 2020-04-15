@@ -5,9 +5,8 @@ import WelcomeMessage from './WelcomeMessage';
 
 const Container = styled.div`
 
-    margin: 75px 0;
     height: 400px;
-    background-color: ${Constants.LIGHT_BLUE};
+    background-color: ${Constants.DARK_BLUE};
     text-align: center;
 `;
 
