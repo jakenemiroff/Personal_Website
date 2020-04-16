@@ -21,10 +21,16 @@ const Home = () => {
     return (
 
         <Container id='Home'>
+            
             <TitleContent>
+            
                 <PageTitle />
+            
             </TitleContent>
+
+            {/* try to make millennium falcon shoot lasers on hover.. */}
             <img src={Image} />
+        
         </Container>
     );
 }
