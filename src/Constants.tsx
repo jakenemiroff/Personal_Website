@@ -1,5 +1,5 @@
 // Strings
-
+export const HOME =  'Home'
 export const ABOUT = 'About'
 export const WORK = 'Work'
 export const PROJECTS = 'Projects'
@@ -12,7 +12,10 @@ export const ABOUT_CONTENT = "I'm a Computer Science student at Western Universi
 
 // Colors
 
-export const ORANGE = '#ffa41b'
-export const DARK_BLUE = '#000839'
-export const LIGHT_BLUE = '#005082'
-export const TEAL = '#00a8cc'
+export const BACKGROUND_NAVBAR = '#525e65';
+export const NAV_TEXT = '#DBE8D4';
+export const ACTIVE_NAV_LINK = '#73CCA8';
+
+// Font colors
+
+export const TITLE_COLOR = '#DBE8D4'

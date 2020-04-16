@@ -5,7 +5,8 @@ import * as Constants from '../../Constants';
 
 const Container = styled.div`
     
-    height: 400px;
+    height: 800px;
+    background-color: blue;
 `;
 
 const Title = styled.h3`
@@ -41,7 +42,7 @@ const About = () => {
 
     return (
 
-        <Container>
+        <Container id='About'>
             
             <Title>{ Constants.ABOUT_ME }</Title>
             
