@@ -56,6 +56,7 @@ const JobTitle =styled.h3`
     font-size: 24px;
     margin-top: 0;
     margin-bottom: 15px;
+    letter-spacing: 0.125em;
     color: rgba(219,232,212,0.5);
     font-family: "Josefin Sans", sans-serif;
 `;

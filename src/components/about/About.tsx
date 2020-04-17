@@ -11,7 +11,8 @@ const Container = styled.div`
 const Title = styled.h3`
 
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
+    letter-spacing: 0.125em;
     margin: 0;
     color: ${Constants.TEXT_COLOR};
     padding-top: 50px;
@@ -29,6 +30,7 @@ const Text = styled.p`
     padding: 0 50px;
     width: 50%;
     line-height: 2;
+    letter-spacing: 0.125em;
     font-size: 20px;
     color: ${Constants.TEXT_COLOR};
 `;

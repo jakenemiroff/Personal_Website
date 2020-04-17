@@ -9,7 +9,7 @@ const Navbar = styled.nav`
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: ${Constants.BACKGROUND_NAVBAR};
+    background-color: ${Constants.BACKGROUND_NAVBAR_COLOR};
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
     display: flex;
     justify-content: center;
@@ -19,16 +19,16 @@ const NavItem = styled.div`
 
     font-size: 16px;
     cursor: pointer;
-    color: ${Constants.NAV_TEXT};
+    color: ${Constants.NAV_TEXT_COLOR};
     line-height: 48px;
 
     :hover {
-        color: ${Constants.ACTIVE_NAV_LINK};
-        border-bottom: 4px solid ${Constants.ACTIVE_NAV_LINK};
+        color: ${Constants.ACTIVE_NAV_LINK_COLOR};
+        border-bottom: 4px solid ${Constants.ACTIVE_NAV_LINK_COLOR};
     }
 
     .active {
-        color: ${Constants.ACTIVE_NAV_LINK};
+        color: ${Constants.ACTIVE_NAV_LINK_COLOR};
     }
 `;
 
