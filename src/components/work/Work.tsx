@@ -4,7 +4,6 @@ import * as Constants from '../../Constants';
 
 const Container = styled.div`
     
-    height: 800px;
 `;
 
 const JobSummary = styled.div`
