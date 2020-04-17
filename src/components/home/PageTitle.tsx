@@ -11,7 +11,7 @@ const Container = styled.hgroup`
 
 const Title = styled.h1`
 
-    color: ${Constants.TITLE_COLOR};
+    color: ${Constants.TEXT_COLOR};
     margin: 0;
     font-style: normal;
     letter-spacing: 0.125em;
@@ -24,7 +24,7 @@ const Title = styled.h1`
 
 const SubTitle = styled.h2`
 
-    color: ${Constants.TITLE_COLOR};
+    color: ${Constants.TEXT_COLOR};
     margin: 16px 0 0;
     font-style: normal;
     letter-spacing: 0.125em;

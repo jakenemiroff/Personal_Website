@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 import * as Constants from '../../Constants';
-// import Image from './Jake_Nemiroff.jpg';
+import Image from './Me_And_Ozzie.jpg';
 
 const Container = styled.div`
     
     height: 800px;
-    background-color: blue;
 `;
-
+    
 const Title = styled.h3`
 
     text-align: center;
-    padding: 20px 0;
     font-size: 24px;
     margin: 0;
+    color: ${Constants.TEXT_COLOR};
+    padding-top: 50px;
 `;
 
 const BodyContainer = styled.div`
@@ -28,31 +28,33 @@ const Text = styled.p`
 
     padding: 0 50px;
     width: 50%;
-    line-height: 1.3;
+    line-height: 2;
     font-size: 20px;
+    color: ${Constants.TEXT_COLOR};
 `;
 
-// const StyledImage = styled.img`
+const StyledImage = styled.img`
 
-//     height: 300px;
-//     width: 300px;
-// `;
+    height: 400px;
+    width: 200px;
+`;
 
 const About = () => {
 
     return (
 
         <Container id='About'>
-            
-            <Title>{ Constants.ABOUT_ME }</Title>
-            
-            <BodyContainer>
 
-                <Text>{ Constants.ABOUT_CONTENT }</Text>
+                <Title>{ Constants.ABOUT_ME }</Title>
                 
-                {/* <StyledImage src={ Image } /> */}
+                <BodyContainer>
 
-            </BodyContainer>
+                    <Text>{ Constants.ABOUT_CONTENT }</Text>
+                    
+                    <StyledImage src={ Image } />
+
+                </BodyContainer>
+            
 
         </Container>
     );

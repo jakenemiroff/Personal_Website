@@ -19,4 +19,4 @@ export const ACTIVE_NAV_LINK = '#73CCA8';
 
 // Font colors
 
-export const TITLE_COLOR = '#DBE8D4'
+export const TEXT_COLOR = '#DBE8D4'
