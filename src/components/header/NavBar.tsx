@@ -117,6 +117,18 @@ const NavBar = () => {
                     {Constants.TERMINAL}
                 </StyledLink>
             </NavItem>
+            <NavItem>
+                <StyledLink
+                    activeClass="active"
+                    to={Constants.RESUME}
+                    spy={true}
+                    smooth={true}
+                    offset={-48}
+                    duration= {800}
+                >
+                    {Constants.RESUME}
+                </StyledLink>
+            </NavItem>
 
         </Navbar>
     );

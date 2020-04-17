@@ -5,6 +5,7 @@ export const WORK = 'Work'
 export const PROJECTS = 'Projects'
 export const CONTACT = 'Contact'
 export const TERMINAL = 'Terminal'
+export const RESUME = 'Resume'
 export const INTRO = "Hello World! \nMy name is Jake, I'm a developer and I enjoy building things. \nWelcome to my website!"
 export const ABOUT_ME = 'About Me'
 export const ABOUT_CONTENT = "I'm a Computer Science student at Western University currently finishing up my last year of my undergraduate studies. I currently live in Ottawa and I have a really fluffy dog who enjoys longboarding with me. I love playing guitar, baseball, and ultimate frisbee, and I am passionate about music, sports, finance, and developing fun side projects in my spare time. "
