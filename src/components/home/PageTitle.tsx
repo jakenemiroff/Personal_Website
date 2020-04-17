@@ -20,7 +20,6 @@ const Title = styled.h1`
     font-size: 9vw;
     font-weight: 100;
     line-height: 1;
-    font-family: 'Josefin Sans', sans-serif;
 `;
 
 const SubTitle = styled.h2`
@@ -34,7 +33,6 @@ const SubTitle = styled.h2`
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    font-family: "Josefin Sans", sans-serif;
 `;
 
 const Header = () => {
@@ -42,8 +40,8 @@ const Header = () => {
     return (
         <Container>
 
-            <Title>Jake Nemiroff</Title>
-            <SubTitle>The story of a young developer</SubTitle>
+            <Title>{ Constants.TITLE }</Title>
+            <SubTitle>{ Constants.SUB_TITLE }</SubTitle>
             
         </Container>
     );

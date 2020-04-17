@@ -32,11 +32,11 @@ const Text = styled.p`
     font-size: 20px;
 `;
 
-const StyledImage = styled.img`
+// const StyledImage = styled.img`
 
-    height: 300px;
-    width: 300px;
-`;
+//     height: 300px;
+//     width: 300px;
+// `;
 
 const About = () => {
 

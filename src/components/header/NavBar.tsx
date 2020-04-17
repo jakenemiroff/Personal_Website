@@ -37,6 +37,7 @@ const StyledLink = styled(Link)`
     display: block;
     height: inherit;
     padding: 0 16px;
+    font-family: "ubuntu", monospace;
 `;
 
 const NavBar = () => {
@@ -116,8 +117,6 @@ const NavBar = () => {
                     {Constants.TERMINAL}
                 </StyledLink>
             </NavItem>
-
-            
 
         </Navbar>
     );

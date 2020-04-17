@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/header/Header';
+import NavBar from './components/header/NavBar';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import './App.css';
@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <Header />
+        <NavBar />
         <Home />
         <About />
     </div>

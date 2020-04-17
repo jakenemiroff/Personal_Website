@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import * as Constants from '../../Constants';
 import PageTitle from './PageTitle';
-import Image from '../home/millennium_falcon.png';
+import Guitar from './../home/guitar.png';
 
 const Container = styled.div`
 
@@ -14,6 +13,12 @@ const TitleContent = styled.div`
 
     padding-top: 50px;
     padding-bottom: 15px;
+`;
+
+const Image = styled.img`
+
+    height: 400px;
+    width: 150px;
 `;
 
 const Home = () => {
@@ -28,9 +33,8 @@ const Home = () => {
             
             </TitleContent>
 
-            {/* try to make millennium falcon shoot lasers on hover.. */}
-            <img src={Image} />
-        
+            <Image src={ Guitar } />
+
         </Container>
     );
 }
