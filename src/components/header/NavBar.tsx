@@ -52,7 +52,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-48}
-                    duration= {500}
+                    duration= {800}
                 >
                     {Constants.HOME}
                 </StyledLink>
@@ -64,7 +64,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-48}
-                    duration= {500}
+                    duration= {800}
                 >
                     {Constants.ABOUT}
                 </StyledLink>
@@ -76,7 +76,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-48}
-                    duration= {500}
+                    duration= {800}
                 >
                     {Constants.WORK}
                 </StyledLink>
@@ -88,7 +88,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-48}
-                    duration= {500}
+                    duration= {800}
                 >
                     {Constants.PROJECTS}
                 </StyledLink>
@@ -100,7 +100,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-48}
-                    duration= {500}
+                    duration= {800}
                 >
                     {Constants.CONTACT}
                 </StyledLink>
@@ -112,7 +112,7 @@ const NavBar = () => {
                     spy={true}
                     smooth={true}
                     offset={-48}
-                    duration= {500}
+                    duration= {800}
                 >
                     {Constants.TERMINAL}
                 </StyledLink>
