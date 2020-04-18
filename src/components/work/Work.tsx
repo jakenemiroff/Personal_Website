@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import * as Constants from '../../Constants';
 
 const Container = styled.div`
-    
+
+    margin: 400px;
 `;
 
 const JobSummary = styled.div`
@@ -20,7 +21,7 @@ const TitleContainer = styled.hgroup`
 
 const Title = styled.h1`
 
-    color: ${Constants.TEXT_COLOR};
+    color: ${ Constants.TEXT_COLOR };
     margin: 0;
     text-align: center;
     text-transform: uppercase;
@@ -39,7 +40,7 @@ const JobHeader = styled.div`
 
 const CompanyName = styled.h2`
 
-    color: ${Constants.TEXT_COLOR};
+    color: ${ Constants.TEXT_COLOR };
     margin: 16px 0 16px;
     font-style: normal;
     letter-spacing: 0.125em;
@@ -63,7 +64,7 @@ const JobTitle =styled.h3`
 
 const TimeFrame = styled.p`
 
-    color: ${Constants.TEXT_COLOR};
+    color: ${ Constants.TEXT_COLOR };
     font-style: normal;
     letter-spacing: 0.125em;
     text-transform: uppercase;
@@ -74,7 +75,7 @@ const TimeFrame = styled.p`
 const BodyContent = styled.div`
 
     font-family: 'Titillium Web', sans-serif;
-    color: ${Constants.TEXT_COLOR};
+    color: ${ Constants.TEXT_COLOR };
     width: 450px;
     margin: auto;
     padding: 36px;
@@ -104,11 +105,9 @@ const Work = () => {
 
                 <BodyContent>
                     { Constants.KINAXIS_CONTENT.split('\n').map((line, key) => {
-                        return <>
-                        <div key={ key }>
+                        return <div key={ key }>
                             <p>{ line }</p>
                         </div>
-                        </>
                     })}
                 </BodyContent>
 
@@ -121,11 +120,9 @@ const Work = () => {
 
                 <BodyContent>
                     { Constants.BANK_OF_CANADA_CONTENT.split('\n').map((line, key) => {
-                        return <>
-                        <div key={ key }>
+                        return <div key={ key }>
                             <p>{ line }</p>
                         </div>
-                        </>
                     })}
                 </BodyContent>
 
@@ -137,11 +134,9 @@ const Work = () => {
 
                 <BodyContent>
                     { Constants.GREAT_PEOPLE_INSIDE_CONTENT.split('\n').map((line, key) => {
-                        return <>
-                        <div key={ key }>
+                        return <div key={ key }>
                             <p>{ line }</p>
                         </div>
-                        </>
                     })}
                 </BodyContent>
 
@@ -153,11 +148,9 @@ const Work = () => {
 
                 <BodyContent>
                     { Constants.RA_CENTRE_CONTENT.split('\n').map((line, key) => {
-                        return <>
-                        <div key={ key }>
+                        return <div key={ key }>
                             <p>{ line }</p>
                         </div>
-                        </>
                     })}
                 </BodyContent>
             </JobSummary>
