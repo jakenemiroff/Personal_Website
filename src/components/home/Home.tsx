@@ -5,7 +5,7 @@ import Guitar from './../home/guitar.png';
 
 const Container = styled.div`
 
-    height: 800px;
+    margin-bottom: 150px;
     text-align: center;
 `;
 

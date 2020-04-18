@@ -4,8 +4,8 @@ import * as Constants from '../../Constants';
 import Image from './Me_And_Ozzie.jpg';
 
 const Container = styled.div`
-    
-    height: 800px;
+
+    margin: 400px 0;
 `;
     
 const Title = styled.h3`
@@ -14,7 +14,7 @@ const Title = styled.h3`
     font-size: 36px;
     letter-spacing: 0.125em;
     margin: 0;
-    color: ${Constants.TEXT_COLOR};
+    color: ${ Constants.TEXT_COLOR };
     padding-top: 50px;
 `;
 
@@ -32,7 +32,7 @@ const Text = styled.p`
     line-height: 2;
     letter-spacing: 0.125em;
     font-size: 20px;
-    color: ${Constants.TEXT_COLOR};
+    color: ${ Constants.TEXT_COLOR };
 `;
 
 const StyledImage = styled.img`

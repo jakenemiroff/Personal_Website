@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import * as Constants from '../../Constants';
 import { Link } from "react-scroll";
+import Pdf from './resume.pdf';
 
 const Navbar = styled.nav`
 
@@ -9,7 +10,7 @@ const Navbar = styled.nav`
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: ${Constants.BACKGROUND_NAVBAR_COLOR};
+    background-color: ${ Constants.BACKGROUND_NAVBAR_COLOR };
     box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2), 0 4px 10px 0 rgba(0,0,0,0.2);
     display: flex;
     justify-content: center;
@@ -19,16 +20,16 @@ const NavItem = styled.div`
 
     font-size: 16px;
     cursor: pointer;
-    color: ${Constants.NAV_TEXT_COLOR};
+    color: ${ Constants.NAV_TEXT_COLOR };
     line-height: 48px;
 
     :hover {
-        color: ${Constants.ACTIVE_NAV_LINK_COLOR};
-        border-bottom: 4px solid ${Constants.ACTIVE_NAV_LINK_COLOR};
+        color: ${ Constants.ACTIVE_NAV_LINK_COLOR };
+        border-bottom: 4px solid ${ Constants.ACTIVE_NAV_LINK_COLOR };
     }
 
     .active {
-        color: ${Constants.ACTIVE_NAV_LINK_COLOR};
+        color: ${ Constants.ACTIVE_NAV_LINK_COLOR };
     }
 `;
 
@@ -40,6 +41,16 @@ const StyledLink = styled(Link)`
     font-family: "ubuntu", monospace;
 `;
 
+const ResumeLink = styled.a`
+
+    display: block;
+    height: inherit;
+    padding: 0 16px;
+    font-family: "ubuntu", monospace;
+    text-decoration: none;
+    color: ${ Constants.NAV_TEXT_COLOR };
+`;
+
 const NavBar = () => {
 
     return (
@@ -48,86 +59,77 @@ const NavBar = () => {
             <NavItem>
                 <StyledLink
                     activeClass="active"
-                    to={Constants.HOME}
+                    to={ Constants.HOME }
                     spy={true}
                     smooth={true}
                     offset={-48}
                     duration= {800}
                 >
-                    {Constants.HOME}
+                    { Constants.HOME }
                 </StyledLink>
             </NavItem>
             <NavItem>
                 <StyledLink
                     activeClass="active"
-                    to={Constants.ABOUT}
+                    to={ Constants.ABOUT }
                     spy={true}
                     smooth={true}
                     offset={-48}
                     duration= {800}
                 >
-                    {Constants.ABOUT}
+                    { Constants.ABOUT }
                 </StyledLink>
             </NavItem>
             <NavItem>
                 <StyledLink
                     activeClass="active"
-                    to={Constants.WORK}
+                    to={ Constants.WORK }
                     spy={true}
                     smooth={true}
                     offset={-48}
                     duration= {800}
                 >
-                    {Constants.WORK}
+                    { Constants.WORK }
                 </StyledLink>
             </NavItem>
             <NavItem>
                 <StyledLink
                     activeClass="active"
-                    to={Constants.PROJECTS}
+                    to={ Constants.PROJECTS }
                     spy={true}
                     smooth={true}
                     offset={-48}
                     duration= {800}
                 >
-                    {Constants.PROJECTS}
+                    { Constants.PROJECTS }
                 </StyledLink>
             </NavItem>
             <NavItem>
                 <StyledLink
                     activeClass="active"
-                    to={Constants.CONTACT}
+                    to={ Constants.CONTACT }
                     spy={true}
                     smooth={true}
                     offset={-48}
                     duration= {800}
                 >
-                    {Constants.CONTACT}
+                    { Constants.CONTACT }
                 </StyledLink>
             </NavItem>
             <NavItem>
                 <StyledLink
                     activeClass="active"
-                    to={Constants.TERMINAL}
+                    to={ Constants.TERMINAL }
                     spy={true}
                     smooth={true}
                     offset={-48}
                     duration= {800}
                 >
-                    {Constants.TERMINAL}
+                    { Constants.TERMINAL }
                 </StyledLink>
             </NavItem>
             <NavItem>
-                <StyledLink
-                    activeClass="active"
-                    to={Constants.RESUME}
-                    spy={true}
-                    smooth={true}
-                    offset={-48}
-                    duration= {800}
-                >
-                    {Constants.RESUME}
-                </StyledLink>
+                <ResumeLink href={ Pdf } target = "_blank" rel="noopener noreferrer">{ Constants.RESUME }</ResumeLink>
             </NavItem>
 
         </Navbar>
