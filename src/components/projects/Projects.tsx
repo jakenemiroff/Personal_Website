@@ -102,7 +102,7 @@ const Projects = () => {
                             </div>
                             </>
                             })}
-                            <a href={ Constants.PUB_SUB_SYSTEM_REPO } target="_blank">
+                            <a href={ Constants.PUB_SUB_SYSTEM_REPO } rel="noopener noreferrer" target="_blank">
                                 <OctocatIcon src={ Octocat }  />
                             </a>
                         </ProjectBody>
@@ -117,7 +117,7 @@ const Projects = () => {
                             </div>
                             </>
                             })}
-                            <a href={ Constants.TURN_BASED_STRATEGY_GAME_REPO } target="_blank">
+                            <a href={ Constants.TURN_BASED_STRATEGY_GAME_REPO } rel="noopener noreferrer" target="_blank">
                                 <OctocatIcon src={ Octocat }  />
                             </a>
                         </ProjectBody>
@@ -132,7 +132,7 @@ const Projects = () => {
                             </div>
                             </>
                             })}
-                            <a href={ Constants.EFFICIENT_FRONTIER_REPO } target="_blank">
+                            <a href={ Constants.EFFICIENT_FRONTIER_REPO } rel="noopener noreferrer" target="_blank">
                                 <OctocatIcon src={ Octocat }  />
                             </a>
                         </ProjectBody>
@@ -151,7 +151,7 @@ const Projects = () => {
                             </div>
                             </>
                             })}
-                            <a href={ Constants.ALGORITHMIC_TRADING_BOT_REPO } target="_blank">
+                            <a href={ Constants.ALGORITHMIC_TRADING_BOT_REPO } rel="noopener noreferrer" target="_blank">
                                 <OctocatIcon src={ Octocat }  />
                             </a>
                         </ProjectBody>
@@ -166,7 +166,7 @@ const Projects = () => {
                             </div>
                             </>
                             })}
-                            <a href={ Constants.TWEETS_TRACKER_REPO } target="_blank">
+                            <a href={ Constants.TWEETS_TRACKER_REPO } rel="noopener noreferrer" target="_blank">
                                 <OctocatIcon src={ Octocat }  />
                             </a>
                         </ProjectBody>
