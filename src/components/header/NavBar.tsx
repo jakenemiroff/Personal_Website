@@ -118,18 +118,6 @@ const NavBar = () => {
                 </StyledLink>
             </NavItem>
             <NavItem>
-                <StyledLink
-                    activeClass="active"
-                    to={ Constants.TERMINAL }
-                    spy={true}
-                    smooth={true}
-                    offset={-48}
-                    duration= {800}
-                >
-                    { Constants.TERMINAL }
-                </StyledLink>
-            </NavItem>
-            <NavItem>
                 <ResumeLink href={ Pdf } target = "_blank" rel="noopener noreferrer">{ Constants.RESUME }</ResumeLink>
             </NavItem>
 

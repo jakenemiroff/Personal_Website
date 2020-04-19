@@ -37,8 +37,8 @@ const Text = styled.p`
 
 const StyledImage = styled.img`
 
-    height: 400px;
-    width: 200px;
+    height: 25%;
+    width: 15%;
 `;
 
 const About = () => {

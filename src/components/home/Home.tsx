@@ -18,8 +18,8 @@ const TitleContent = styled.div`
 
 const Image = styled.img`
 
-    height: 400px;
-    width: 150px;
+    height: 10%;
+    width: 10%;
 `;
 
 const Home = () => {
