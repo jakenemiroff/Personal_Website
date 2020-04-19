@@ -4,8 +4,7 @@ import * as Constants from '../../Constants';
 
 const Container = styled.div`
 
-    margin-top: 600px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 `;
     
 const Title = styled.h3`
@@ -16,6 +15,7 @@ const Title = styled.h3`
     margin: 0;
     color: ${ Constants.TEXT_COLOR };
     padding-top: 50px;
+    text-transform: uppercase;
 `;
 
 const BodyContainer = styled.div`

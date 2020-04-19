@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import * as Constants from '../../Constants';
-import Gears from './gears.png'
 import Octocat from './octocat.png'
 
 const Container = styled.div`
     
+    margin-bottom: 300px;
 `;
     
 const Title = styled.h3`
@@ -16,16 +16,17 @@ const Title = styled.h3`
     letter-spacing: 0.125em;
     color: ${ Constants.TEXT_COLOR };
     padding: 50px 0;
+    text-transform: uppercase;
 `;
 
 const Row = styled.div`
 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 16px;
-    height: 400px;
+    margin: 32px;
+    min-height: 400px;
     padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
 `;
 
 const Project = styled.div`
@@ -34,7 +35,7 @@ const Project = styled.div`
     margin: 15px;
     width: 450px;
     line-height: 2;
-    font-size: 20px;
+    font-size: 16px;
     border: solid 1px ${ Constants.TEXT_COLOR };
     color: ${ Constants.TEXT_COLOR };
     border-radius: 10px;
@@ -63,15 +64,6 @@ const OctocatIcon = styled.img`
     }
 `;
 
-const ComingSoonIcon = styled.img`
-
-    height: 300px;
-    width: 300px;
-    display: block;
-    margin: auto;
-    padding-top: 20px;
-`;
-
 const ProjectBody = styled.div`
 
     margin: auto;
@@ -81,6 +73,7 @@ const ProjectBody = styled.div`
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     letter-spacing: 0.125em;
+    padding-bottom: 20px;
 `;
 
 const Projects = () => {
@@ -162,16 +155,8 @@ const Projects = () => {
                         </ProjectBody>
                     </Project>
 
-                    <Project>
-                        <ProjectTitle>{ Constants.COMING_SOON_TEMPLATE }</ProjectTitle>
-                        <ProjectBody>
-                            <ComingSoonIcon src={ Gears } />
-                        </ProjectBody>
-                    </Project>
-
                 </Row>
             
-
         </Container>
     );
 }

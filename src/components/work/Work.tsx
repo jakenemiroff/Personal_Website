@@ -4,7 +4,7 @@ import * as Constants from '../../Constants';
 
 const Container = styled.div`
 
-    margin: 400px;
+    margin-bottom: 300px;
 `;
 
 const JobSummary = styled.div`
@@ -27,7 +27,6 @@ const Title = styled.h1`
     text-transform: uppercase;
     font-size: 64px;
     font-weight: 100;
-    line-height: 1;
 `;
 
 const JobHeader = styled.div`
@@ -53,6 +52,7 @@ const CompanyName = styled.h2`
 
 const JobTitle =styled.h3`
 
+    width: inherit;
     font-weight: 400;
     font-size: 24px;
     margin-top: 0;
@@ -60,6 +60,7 @@ const JobTitle =styled.h3`
     letter-spacing: 0.125em;
     color: rgba(219,232,212,0.5);
     font-family: "Josefin Sans", sans-serif;
+    line-height: 1.3;
 `;
 
 const TimeFrame = styled.p`

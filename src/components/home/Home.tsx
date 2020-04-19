@@ -6,7 +6,7 @@ import FadeIn from 'react-fade-in';
 
 const Container = styled.div`
 
-    margin-bottom: 150px;
+    margin-bottom: 300px;
     text-align: center;
 `;
 

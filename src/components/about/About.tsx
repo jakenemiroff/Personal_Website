@@ -5,7 +5,7 @@ import Image from './Me_And_Ozzie.jpg';
 
 const Container = styled.div`
 
-    margin: 600px 0;
+    margin-bottom: 300px;
 `;
     
 const Title = styled.h3`
@@ -23,6 +23,8 @@ const BodyContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
+    padding: 0 50px;
 `;
 
 const Text = styled.p`
@@ -37,8 +39,8 @@ const Text = styled.p`
 
 const StyledImage = styled.img`
 
-    height: 25%;
-    width: 15%;
+    height: 400px;
+    width: 200px;
 `;
 
 const About = () => {

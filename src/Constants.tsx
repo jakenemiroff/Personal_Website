@@ -46,7 +46,7 @@ export const GREAT_PEOPLE_INSIDE_CONTENT = 'Collected contact information of man
 export const RA_CENTRE = 'RA Centre'
 export const RA_CENTRE_JOB_TITLE = 'Camp Counsellor'
 export const RA_CENTRE_TIME_FRAME = 'July 2017 – September 2017'
-export const RA_CENTRE_CONTENT = 'Worked in a team to design, run, and supervise activities, communicated with parents. Developed skills to think and act quickly.';
+export const RA_CENTRE_CONTENT = 'Worked in a team to design, run, and supervise activities, communicated with parents. \nDeveloped skills to think and act quickly.';
 
 // Projects
 

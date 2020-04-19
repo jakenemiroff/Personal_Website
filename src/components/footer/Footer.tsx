@@ -8,7 +8,7 @@ import LinkedIn from './linkedin.png';
 
 const StyledFooter = styled.footer`
 
-    height: 150px;
+    height: 100px;
     width: 100%;
     bottom: 0;
     position: relative;
@@ -20,8 +20,8 @@ const StyledFooter = styled.footer`
 
 const Icon = styled.img`
 
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     cursor: pointer;
     margin: auto
 `;
