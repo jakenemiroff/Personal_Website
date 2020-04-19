@@ -5,7 +5,7 @@ import Image from './Me_And_Ozzie.jpg';
 
 const Container = styled.div`
 
-    margin: 400px 0;
+    margin: 600px 0;
 `;
     
 const Title = styled.h3`

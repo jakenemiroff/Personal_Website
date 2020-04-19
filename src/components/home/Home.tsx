@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PageTitle from './PageTitle';
 import Guitar from './../home/guitar.png';
+import FadeIn from 'react-fade-in';
 
 const Container = styled.div`
 
@@ -26,7 +27,7 @@ const Home = () => {
     return (
 
         <Container id='Home'>
-            
+            <FadeIn>
             <TitleContent>
             
                 <PageTitle />
@@ -34,7 +35,7 @@ const Home = () => {
             </TitleContent>
 
             <Image src={ Guitar } />
-
+        </FadeIn>
         </Container>
     );
 }
