@@ -129,7 +129,33 @@ const Projects = () => {
 
                 <Row>
                     
-                <Project>
+                    <Project>
+                        <ProjectTitle>{ Constants.AI_PACMAN }</ProjectTitle>
+                        <ProjectBody>{ Constants.AI_PACMAN_BODY.split('\n').map((line, key) => {
+                            return <div key={ key }>
+                                <p>{ line }</p>
+                            </div>
+                            })}
+                            <a href={ Constants.AI_PACMAN_REPO } rel="noopener noreferrer" target="_blank">
+                                <OctocatIcon src={ Octocat }  />
+                            </a>
+                        </ProjectBody>
+                    </Project>
+
+                    <Project>
+                        <ProjectTitle>{ Constants.TIC_TAC_TOE }</ProjectTitle>
+                        <ProjectBody>{ Constants.TIC_TAC_TOE_BODY.split('\n').map((line, key) => {
+                            return <div key={ key }>
+                                <p>{ line }</p>
+                            </div>
+                            })}
+                            <a href={ Constants.TIC_TAC_TOE_REPO } rel="noopener noreferrer" target="_blank">
+                                <OctocatIcon src={ Octocat }  />
+                            </a>
+                        </ProjectBody>
+                    </Project>
+
+                    <Project>
                         <ProjectTitle>{ Constants.ALGORITHMIC_TRADING_BOT }</ProjectTitle>
                         <ProjectBody>{ Constants.ALGORITHMIC_TRADING_BOT_BODY.split('\n').map((line, key) => {
                             return <div key={ key }>
@@ -137,19 +163,6 @@ const Projects = () => {
                             </div>
                             })}
                             <a href={ Constants.ALGORITHMIC_TRADING_BOT_REPO } rel="noopener noreferrer" target="_blank">
-                                <OctocatIcon src={ Octocat }  />
-                            </a>
-                        </ProjectBody>
-                    </Project>
-                    
-                    <Project>
-                        <ProjectTitle>{ Constants.TWEETS_TRACKER }</ProjectTitle>
-                        <ProjectBody>{ Constants.TWEETS_TRACKER_BODY.split('\n').map((line, key) => {
-                            return <div key={ key }>
-                                <p>{ line }</p>
-                            </div>
-                            })}
-                            <a href={ Constants.TWEETS_TRACKER_REPO } rel="noopener noreferrer" target="_blank">
                                 <OctocatIcon src={ Octocat }  />
                             </a>
                         </ProjectBody>
