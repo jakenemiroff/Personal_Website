@@ -51,23 +51,23 @@ export const RA_CENTRE_CONTENT = 'Worked in a team to design, run, and supervise
 // Projects
 
 export const PUB_SUB_SYSTEM = 'Pub-Sub System';
-export const PUB_SUB_SYSTEM_BODY = 'Developed a publisher-subscriber system as part of a team. \nLearned about good developing practices, making use of software design principles/patterns';
+export const PUB_SUB_SYSTEM_BODY = 'Developed a publisher-subscriber system as part of a team in Java. \nLearned about good developing practices, making use of software design principles/patterns';
 export const TURN_BASED_STRATEGY_GAME = 'Turn-Based Strategy Game';
 export const TURN_BASED_STRATEGY_GAME_BODY = 'Developed a turn-based system as part of a team in C++ making use of the SDL2 library for the graphics. \nLearned about Agile development and good object oriented design patterns';
-export const ALGORITHMIC_TRADING_BOT = 'Algorithmic Trading Bot';
-export const ALGORITHMIC_TRADING_BOT_BODY = 'Currently building an algorithmic trading bot in python that runs on the Google Cloud Platform. \nThis bot will make calls to the TD Ameritrade API and the Alpaca API to pull data on stocks to build and trade with real-time market data.';
+export const ALGORITHMIC_TRADING_System = 'Algorithmic Trading System';
+export const ALGORITHMIC_TRADING_System_BODY = 'Currently building an algorithmic trading bot in python that runs on the Google Cloud Platform. \nThis bot will make calls to the Alpaca API to pull data on stocks to build and trade with real-time market data.';
 export const AI_PACMAN = 'Berkeley AI Pacman Project';
 export const AI_PACMAN_BODY = 'This project is a Berkeley University assignment where I implemented depth-first, breadth-first, uniform cost, and A* search algorithms in Python . \nClassic Pacman is modeled as both an adversarial and a stochastic search problem. I tried to implement multiagent minimax and expectimax algorithms, as well as designing evaluation functions.';
 export const TIC_TAC_TOE ='Tic Tac Toe';
 export const TIC_TAC_TOE_BODY ='In this project I built a simple game of Tic Tac Toe coded in Java. \nI learned about creating Hash Tables and algorithms associated with them. I also explored recursion trees for the CPU gameplay.';
 export const EFFICIENT_FRONTIER = 'Efficient Frontier';
-export const EFFICIENT_FRONTIER_BODY = 'This is a script used to generate an efficient frontier, a model which contains the set of optimal portfolios. \nThese portfolios are generated based on the motivation to maximize portfolio returns while minimizing portfolio risk.';
+export const EFFICIENT_FRONTIER_BODY = 'This is a python script used to generate an efficient frontier, a model which contains the set of optimal portfolios. \nThese portfolios are generated based on the motivation to maximize portfolio returns while minimizing portfolio risk.';
 
 // Links
 
 export const GITHUB_HOME = 'https://github.com/jakenemiroff';
 export const LINKEDIN_HOME = 'https://www.linkedin.com/in/jake-nemiroff-32290690/';
-export const ALGORITHMIC_TRADING_BOT_REPO = 'https://github.com/jakenemiroff/Algorithmic_Trading_Bot';
+export const ALGORITHMIC_TRADING_BOT_REPO = 'https://github.com/jakenemiroff/Algorithmic_Trading';
 export const TURN_BASED_STRATEGY_GAME_REPO = 'https://github.com/jakenemiroff/Protect_Your_Territory';
 export const AI_PACMAN_REPO = 'https://github.com/jakenemiroff/Berkeley_AI_Pacman';
 export const TIC_TAC_TOE_REPO = 'https://github.com/jakenemiroff/tic_tac_toe';

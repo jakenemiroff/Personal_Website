@@ -156,8 +156,8 @@ const Projects = () => {
                     </Project>
 
                     <Project>
-                        <ProjectTitle>{ Constants.ALGORITHMIC_TRADING_BOT }</ProjectTitle>
-                        <ProjectBody>{ Constants.ALGORITHMIC_TRADING_BOT_BODY.split('\n').map((line, key) => {
+                        <ProjectTitle>{ Constants.ALGORITHMIC_TRADING_System }</ProjectTitle>
+                        <ProjectBody>{ Constants.ALGORITHMIC_TRADING_System_BODY.split('\n').map((line, key) => {
                             return <div key={ key }>
                                 <p>{ line }</p>
                             </div>
