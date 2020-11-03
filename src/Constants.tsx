@@ -31,6 +31,10 @@ export const FOOTER_ICON_TEXT_COLOR = '#73CCA8';
 
 // Employment
 
+export const EDSBY = 'Edsby';
+export const EDSBY_JOB_TITLE = 'Software Developer';
+export const EDSBY_TIME_FRAME = 'August 2020 – Present';
+export const EDSBY_CONTENT = 'Designing and further developing a custom RESTful API to ensure a highly scalable, simple, and easily modifiable system that securely integrates data accessibility to client services. \nResponsible for defining, developing, and evolving software in a fast paced and agile development environment. \nDeveloping and maintaining server-side web application logic and framework using python to integrate with the front end application.';
 export const KINAXIS = 'Kinaxis';
 export const KINAXIS_JOB_TITLE = 'Web Application Developer';
 export const KINAXIS_TIME_FRAME = 'May 2019 – September 2019';

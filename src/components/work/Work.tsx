@@ -99,6 +99,20 @@ const Work = () => {
                 </TitleContainer>
 
                 <JobHeader>
+                    <CompanyName>{ Constants.EDSBY }</CompanyName>
+                    <JobTitle>{ Constants.EDSBY_JOB_TITLE }</JobTitle>
+                    <TimeFrame>{ Constants.EDSBY_TIME_FRAME }</TimeFrame>
+                </JobHeader>
+
+                <BodyContent>
+                    { Constants.EDSBY_CONTENT.split('\n').map((line, key) => {
+                        return <div key={ key }>
+                            <p>{ line }</p>
+                        </div>
+                    })}
+                </BodyContent>
+
+                <JobHeader>
                     <CompanyName>{ Constants.KINAXIS }</CompanyName>
                     <JobTitle>{ Constants.KINAXIS_JOB_TITLE }</JobTitle>
                     <TimeFrame>{ Constants.KINAXIS_TIME_FRAME }</TimeFrame>
